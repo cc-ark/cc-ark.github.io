@@ -1,5 +1,5 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> github + hexo 配置个人blog · 但行好事 莫问前程</title><meta name="description" content="github + hexo 配置个人blog - null"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://yoursite.com/atom.xml" title="但行好事 莫问前程"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">github + hexo 配置个人blog</h1><div class="post-info">Nov 21, 2017</div><div class="post-content"><p>参考页面：<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/26625249</a></p>
-<h2 id="hexo-安装"><a href="#hexo-安装" class="headerlink" title="hexo 安装"></a>hexo 安装</h2><ul>
+<h3 id="hexo-安装"><a href="#hexo-安装" class="headerlink" title="hexo 安装"></a>hexo 安装</h3><ul>
 <li><p>安装node.js 建议使用source code安装</p>
 </li>
 <li><p>修改npm源(GFW)</p>
@@ -17,7 +17,9 @@
 </ul>
 <p>这三个命令依次是新建一篇博客文章、生成网页、在本地预览的操作。<br>完成后，打开浏览器输入地址：localhost:4000, 可以看出我们写出第一篇博客。</p>
 <ul>
-<li>命令简写<br>hexo n “我的博客” == hexo new “我的博客” #新建文章<br>hexo g == hexo generate #生成<br>hexo s == hexo server #启动服务预览<br>hexo d == hexo deploy #部署<br>hexo server #Hexo会监视文件变动并自动更新，无须重启服务器<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP<br>hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令<h2 id="github推送"><a href="#github推送" class="headerlink" title="github推送"></a>github推送</h2></li>
+<li>命令简写<br>hexo n “我的博客” == hexo new “我的博客” #新建文章<br>hexo g == hexo generate #生成<br>hexo s == hexo server #启动服务预览<br>hexo d == hexo deploy #部署<br>hexo server #Hexo会监视文件变动并自动更新，无须重启服务器<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP<br>hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令</li>
+</ul>
+<h3 id="github推送"><a href="#github推送" class="headerlink" title="github推送"></a>github推送</h3><ul>
 <li>创建github账户（略）</li>
 <li>安装git (略)</li>
 <li><p>进入blog文件夹，修改_config.yml</p>
